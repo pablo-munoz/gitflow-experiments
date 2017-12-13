@@ -25,3 +25,11 @@ To fix a bug or mistake branch, simply correct the release
 branch. Once the release branch has been deemed worthy, it is merged
 both into master and develop, so both (the clients and the developers)
 will get to use the most complete version of the code.
+
+# Fixing stuff after it has been released and tagged
+
+Once a release is out in the wild, if a bug is identified, we can no
+longer modify the release branch as it has been deleted. Rather, a
+hotfix branch is created. Once the bug is corrected the hotfix branch
+is merged back onto both master and develop, and a new tag (version)
+is created, but of the minor kind.
