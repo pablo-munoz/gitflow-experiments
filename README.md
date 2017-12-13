@@ -18,3 +18,10 @@ the ability to test a release (e.g. running on staging servers), while
 allowing new features to continue being developed, although this
 features will not become part of the release, and will have to wait
 for a future release to be included in.
+
+## Fixing mistakes on release branches
+
+To fix a bug or mistake branch, simply correct the release
+branch. Once the release branch has been deemed worthy, it is merged
+both into master and develop, so both (the clients and the developers)
+will get to use the most complete version of the code.
